@@ -1,0 +1,51 @@
+$body-color: #303335;
+
+body {
+  color: $body-color;
+  font-family: sans-serif;
+}
+.zoom {
+  background-image: url("../../public/loupe.svg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 40px;
+}
+.modal-body .dropdown-menu {
+  width: 100%;
+}
+#todos{
+  .btn-outline-info:hover{
+    background: #fff;
+    color: #17a2b8;
+  }
+}
+.hidden{
+  display: none;
+}
+.doneSymbol{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../public/checked.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card{
+  position: relative;
+}
+.done{
+  .card{
+    background: #ccc;
+  }
+  .doneSymbol{
+    display: block;
+  }
+}
+#formEdit{
+  display: none;
+}
